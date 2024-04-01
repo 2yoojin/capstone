@@ -1,6 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=68C186&height=350&section=header&text=Capstone_project&fontSize=50&fontColor=#0099ff&stroke=3A2F32&strokeWidth=2&animation=twinkling)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=350&section=header&text=Capstone_project&stroke=3A2F32&strokeWidth=2&animation=twinkling)
 
 - 참여자 : 신석준, 안준수, 임채민, 이유진 (총 4명)
+- 프로젝트 진행 기간 : 2024.03.08~
+
 
 # 목차
 - [프로젝트 개요](#프로젝트-개요)
