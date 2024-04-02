@@ -35,6 +35,6 @@
 2. **여러 재난 상황 대응** : 가뭄으로 인한 수위 하락도 하천의 수위 데이터의 이상치값으로 판단 가능할 것으로 예상
 
 # 사용 모델(공부 ~ ing)
-AA-Forecast
+AA-Forecast (https://github.com/ashfarhangi/aa-forecast)
 
 
