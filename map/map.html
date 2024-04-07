@@ -24,12 +24,20 @@
 </head>
 
 <body>
+    <div style="height:1000px; display:block;">
+        <div class="black-bg">
+            <div class="white-bg">
+
+            </div>
+        </div>
+    </div>
     <div class="folium-map" id="map_d9f33983abee03c2142be3a22d5283fc"></div>
-    <!-- 말풍선을 클릭을 하면 창이 떠지고, 관련된 그래프들이 슬라이드형태로 보여짐, 닫기 버튼도 존재 -->
+    <!-- 말풍선을 클릭을 하면 모달창이 떠질거야-->
+
 </body>
 <script>
     var bounds = null;
-    
+
     var map_d9f33983abee03c2142be3a22d5283fc = L.map(
         'map_d9f33983abee03c2142be3a22d5283fc', {
         center: [37.5665, 126.978],
@@ -77,11 +85,33 @@
         }).addTo(map_d9f33983abee03c2142be3a22d5283fc);
 
         var popup = L.popup({ maxWidth: '300' });
-        var content = `<div style="width: 100%; height: 100%;">${bridge.name}</div>`;
+        var content = `<div style="width: 100%; height: 100%; cursor: pointer;" onclick="showDetails('${bridge.name}')">${bridge.name}</div>`;
         popup.setContent(content);
-
         marker.bindPopup(popup);
     });
 
+    function showDetails(name) {
+        // 모달창 내용 추가
+        var modalContent = `
+        <div class="modal-content">
+            <div class="close close1"></div>
+            <h2>${name}</h2>
+            <p>이상치 예측 그래프</p>
+            <img src="/image/image (1).png">
+            
+        </div>
+    `;
+
+        $('.white-bg').append(modalContent);
+        // $('.white-bg').html('');
+
+    }
+
+
+
+
+
+
 </script>
+
 </html>
