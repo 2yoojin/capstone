@@ -32,7 +32,6 @@
         </div>
     </div>
     <div class="folium-map" id="map_d9f33983abee03c2142be3a22d5283fc"></div>
-    <!-- 말풍선을 클릭을 하면 모달창이 떠질거야-->
 
 </body>
 <script>
@@ -90,7 +89,16 @@
         marker.bindPopup(popup);
     });
 
+    function closeModal() {
+        // 모달창 감추기
+        $('.black-bg').removeClass('show-modal');
+        // 모달창 내용 초기화
+        $('.modal-content').remove();
+    }
+
     function showDetails(name) {
+        // 모달창 보이게 하기
+        $('.black-bg').addClass('show-modal');
         // 모달창 내용 추가
         var modalContent = `
         <div class="modal-content">
@@ -103,7 +111,9 @@
     `;
 
         $('.white-bg').append(modalContent);
-        // $('.white-bg').html('');
+        $('.close').on('click', function () {
+            closeModal();
+        });
 
     }
 
