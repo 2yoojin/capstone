@@ -6,6 +6,41 @@ body {
     padding: 0;
 }
 
+
+.black-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s;
+    z-index: 1000; /* Ensure the black-bg appears above the map */
+    padding:300px;
+}
+
+.white-bg {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto; /* 좌우 여백을 자동으로 조정하여 수평 가운데 정렬 */
+    transition: all 1s;
+}
+
+
+.black-bg.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 #map {
     position: absolute;
     top: 0;
@@ -20,36 +55,6 @@ body {
     height: 100.0%;
     left: 0.0%;
     top: 0.0%;
-}
-
-.black-bg {
-
-    width: 100%;
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 1s;
-}
-.white-bg{
-    width:80%;
-    display:block;
-    margin-left: auto;
-    margin-right:auto;
-    
-    transition: all 1s;
-}
-.show-modal {
-    visibility: visible;
-    opacity: 1;
-}
-
-.modal-content {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
 .close {

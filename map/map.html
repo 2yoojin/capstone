@@ -24,15 +24,12 @@
 </head>
 
 <body>
-
     <div class="black-bg">
         <div class="white-bg">
 
         </div>
     </div>
-
     <div id="map_d9f33983abee03c2142be3a22d5283fc"></div>
-
 </body>
 <script>
     var bounds = null;
@@ -64,13 +61,13 @@
 
 
     var bridges = [
-        { coordinates: [37.54294954, 127.1131544], name: 'Gwangjin Bridge', imageurl: '/image/gwangjinBridge.png'},
+        { coordinates: [37.54294954, 127.1131544], name: 'Gwangjin Bridge', imageurl: '/image/gwangjinBridge.png' },
         { coordinates: [37.4687424, 127.122572], name: 'Daegok Bridge' },
         { coordinates: [37.49763773, 127.0737858], name: 'Daechi Bridge' },
         { coordinates: [37.52607449, 127.0642459], name: 'Cheongdam Bridge' },
         { coordinates: [37.65298427, 127.0542695], name: 'Changdong Bridge' },
         { coordinates: [37.62440467, 127.0499952], name: 'Wolgye 2 Bridge' },
-        { coordinates: [37.59248342, 127.070474], name: 'Jungrang Bridge',imageurl: '/image/junrangBridge.png' },
+        { coordinates: [37.59248342, 127.070474], name: 'Jungrang Bridge', imageurl: '/image/junrangBridge.png' },
         { coordinates: [37.51534744, 126.9960835], name: 'Jamsu Bridge' },
         { coordinates: [37.51748473, 126.9588569], name: 'Hangang Bridge' },
         { coordinates: [37.478799, 126.8458601], name: 'Neobu Bridge' },
@@ -78,7 +75,7 @@
         { coordinates: [37.59914436, 126.8110005], name: 'Haengju Bridge' }
     ];
 
-    bridges.forEach(function (bridge,i) {
+    bridges.forEach(function (bridge, i) {
         var marker = L.marker(bridge.coordinates, {
             icon: new L.Icon.Default()
         }).addTo(map_d9f33983abee03c2142be3a22d5283fc);
@@ -89,14 +86,9 @@
         marker.bindPopup(popup);
     });
 
-    function closeModal() {
-        // 모달창 감추기
-        $('.black-bg').removeClass('show-modal');
-        // 모달창 내용 초기화
-        $('.modal-content').remove();
-    }
 
-    function showDetails(name,url) {
+
+    function showDetails(name, url) {
         // 모달창 보이게 하기
         $('.black-bg').addClass('show-modal');
         // 모달창 내용 추가
@@ -106,16 +98,22 @@
             <h2>${name}</h2>
             <p>이상치 예측 그래프</p>
             <img src="${url}">
-        </div>
-    `;
-        console.log(url)
+        </div>`;
+
         $('.white-bg').append(modalContent);
+        
         $('.close').on('click', function () {
             closeModal();
         });
 
     }
 
+    function closeModal() {
+        // 모달창 감추기
+        $('.black-bg').removeClass('show-modal');
+        // 모달창 내용 초기화
+        $('.modal-content').remove();
+    }
 </script>
 
 </html>
