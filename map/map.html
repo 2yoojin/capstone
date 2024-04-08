@@ -62,17 +62,17 @@
 
     var bridges = [
         { coordinates: [37.54294954, 127.1131544], name: 'Gwangjin Bridge', imageurl: '/image/gwangjinBridge.png' },
-        { coordinates: [37.4687424, 127.122572], name: 'Daegok Bridge' },
-        { coordinates: [37.49763773, 127.0737858], name: 'Daechi Bridge' },
-        { coordinates: [37.52607449, 127.0642459], name: 'Cheongdam Bridge' },
-        { coordinates: [37.65298427, 127.0542695], name: 'Changdong Bridge' },
-        { coordinates: [37.62440467, 127.0499952], name: 'Wolgye 2 Bridge' },
+        { coordinates: [37.4687424, 127.122572], name: 'Daegok Bridge', imageurl: '/image/daegokBridge.png'  },
+        { coordinates: [37.49763773, 127.0737858], name: 'Daechi Bridge', imageurl: '/image/daechiBridge.png'  },
+        { coordinates: [37.52607449, 127.0642459], name: 'Cheongdam Bridge', imageurl: '/image/cheongdamBridge.png' },
+        { coordinates: [37.65298427, 127.0542695], name: 'Changdong Bridge', imageurl: '/image/ChangdongBridge.png'  },
+        { coordinates: [37.62440467, 127.0499952], name: 'Wolgye 2 Bridge', imageurl: '/image/wolgye2Bridge.png'  },
         { coordinates: [37.59248342, 127.070474], name: 'Jungrang Bridge', imageurl: '/image/junrangBridge.png' },
-        { coordinates: [37.51534744, 126.9960835], name: 'Jamsu Bridge' },
-        { coordinates: [37.51748473, 126.9588569], name: 'Hangang Bridge' },
-        { coordinates: [37.478799, 126.8458601], name: 'Neobu Bridge' },
-        { coordinates: [37.50856057, 126.8735373], name: 'Ogeum Bridge' },
-        { coordinates: [37.59914436, 126.8110005], name: 'Haengju Bridge' }
+        { coordinates: [37.51534744, 126.9960835], name: 'Jamsu Bridge', imageurl: '/image/jamsuBridge.png'  },
+        { coordinates: [37.51748473, 126.9588569], name: 'Hangang Bridge', imageurl: '/image/hangangBridge.png'  },
+        { coordinates: [37.478799, 126.8458601], name: 'Neobu Bridge', imageurl: '/image/neobuBridge.png'  },
+        { coordinates: [37.50856057, 126.8735373], name: 'Ogeum Bridge' , imageurl: '/image/ogeumBridge.png' },
+        { coordinates: [37.59914436, 126.8110005], name: 'Haengju Bridge' , imageurl: '/image/haengjuBridge.png' }
     ];
 
     bridges.forEach(function (bridge, i) {
@@ -96,7 +96,7 @@
         <div class="modal-content">
             <div class="close close1"></div>
             <h2>${name}</h2>
-            <p>이상치 예측 그래프</p>
+            <p>일별 수위 평균 그래프</p>
             <img src="${url}">
         </div>`;
 
