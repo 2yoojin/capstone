@@ -63,9 +63,8 @@ body {
 
 .close {
     display: inline-block;
-    display: inline;
+    text-align: right;
 }
-
 .close:after {
     display: inline-block;
     content: "\00d7";
