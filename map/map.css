@@ -13,7 +13,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background-image: rgba(0, 0, 0, 0.5);
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 1s;
@@ -22,7 +22,7 @@ body {
 }
 
 .white-bg {
-    width: 50%;
+    width:100%;
     height: 50%;
     margin: 0 auto; 
     transition: all 1s;
@@ -39,6 +39,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width:100%;
+    margin-bottom: 100px;
+
+
 }
 
 #map {
