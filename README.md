@@ -30,6 +30,8 @@ Contents
 >
 > [베이스라인 모델](#베이스라인-모델)
 >
+> [프로젝트 결과](#프로젝트-결과)
+> 
 > [참조 사이트](#참조-사이트)
 
 <br/>
@@ -134,17 +136,21 @@ history = model1.fit(X_train1[:train_size], y_train1[:train_size], validation_da
 
 <br/>
 
-참조 사이트
+프로젝트 결과
 -----------------
-> <h3><a href="https://www.hrfco.go.kr/main.do">한강 홍수 통제소</a></h3>
-> <h3><a href="https://apihub.kma.go.kr/">기상청 API 허브</a></h3>
 
+![image](https://github.com/2yoojin/capstone/assets/125172335/1117372b-b8f2-4976-9311-3b7f8f2d874a)
+<p align="center">광진교 이상치 예측 그래프</p>
 <br/>
-
-결론
------------------
 
 한강 홍수통제소에서 제공하는 다양한 관측소 데이터를 바탕으로 Star 분해법과 attention 메커니즘을 적용하여 *이상치* 예측의 정확성을 높였다. 
 GRU, LightGBM, Prophet 모델을 베이스라인으로 삼아 성능을 비교한 결과, AA-Forecast 모델을 활용하였을 때, *이상치* 예측에서 가장 우수한 성능을 보였다. 
 이러한 결과는 한강 수위를 사전에 예측함으로써 위험 상황에 대한 조기 경보와 대비책 마련에 큰 도움을 줄 수 있음을 시사한다. 
 앞으로 다양한 데이터와 상황을 고려한 추가 연구를 통해 모델의 성능을 더욱 향상시킬 수 있을 것으로 기대된다.
+
+<br/>
+
+참조 사이트
+-----------------
+> <h3><a href="https://www.hrfco.go.kr/main.do">한강 홍수 통제소</a></h3>
+> <h3><a href="https://apihub.kma.go.kr/">기상청 API 허브</a></h3>
