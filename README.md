@@ -138,10 +138,52 @@ history = model1.fit(X_train1[:train_size], y_train1[:train_size], validation_da
 
 <br/>
 
+<h3>AA-Forecast</h3>
+<table>
+  <tr>
+    <th>Bridge Name</th>
+    <th>Anomaly Ratio(%)</th>
+    <th>R Squared</th>
+    <th>Adjusted R Squared</th>
+    <th>MAE</th>
+    <th>MSE</th>
+    <th>RMSE</th>
+    
+  </tr>
+  <tr>
+    <th>Gwangin Bridge</th>
+    <th>1.27</th>
+    <th>0.933575</th>
+    <th>0.930768</th>
+    <th>0.162199</th>
+    <th>0.045467</th>
+    <th>0.21323</th>
+  </tr>
+  <tr>
+    <th>Haengju Bridge</th>
+    <th>1.31</th>
+    <th>0.802222</th>
+    <th>0.930768</th>
+    <th>0.168692</th>
+    <th>0.050615</th>
+    <th>0.224977</th>
+  </tr>
+  <tr>
+    <th>Hangang Bridge</th>
+    <th>1.42</th>
+    <th>0.922869</th>
+    <th>0.0.919964</th>
+    <th>0.171594</th>
+    <th>0.0535</th>
+    <th>0.231301</th>
+  </tr>
+</table>
+
+<br/>
+
 프로젝트 결과
 -----------------
 
-![image](https://github.com/2yoojin/capstone/assets/125172335/1117372b-b8f2-4976-9311-3b7f8f2d874a)
 <p align="center">광진교 이상치 예측 그래프</p>
 <br/>
 
