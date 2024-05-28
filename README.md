@@ -138,7 +138,8 @@ history = model1.fit(X_train1[:train_size], y_train1[:train_size], validation_da
 
 <br/>
 
-<h3>AA-Forecast</h3>
+
+*AA-Forecast Evaluation Metrics*
 <table>
   <tr>
     <th>Bridge Name</th>
