@@ -1,13 +1,13 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=350&section=header&text=Capstone_project&stroke=3A2F32&strokeWidth=2&animation=twinkling)
 
 - 참여자 : 신석준, 안준수, 임채민, 이유진 (총 4명)
-- 프로젝트 진행 기간 : 2024.03.08~
+- 프로젝트 진행 기간 : 2024.03.08~2024.06.14
 
 목차
 -----------------
 - [프로젝트 개요](#프로젝트-개요)
+- [프로젝트 목표](#프로젝트-목표)
 - [skill set](#skill-set)
-- [프로젝트 목적](#프로젝트-목적)
 - [베이스 모델](#베이스-모델)
 - [참조 사이트](#참조-사이트)
 
@@ -42,9 +42,12 @@ skill set
 -----------------
 <h3><a href="https://github.com/ashfarhangi/aa-forecast">AA-Forecast</a></h3>
 
+
 참조 사이트
 -----------------
-<h3><a href="https://www.hrfco.go.kr/main.do">한강 홍수 통제소</a></h3>
+<p><a href="https://www.hrfco.go.kr/main.do">한강 홍수 통제소</a></p>
+<p><a href="https://apihub.kma.go.kr/">기상청 API 허브</a></p>
+
 
 프로젝트 최종 보고
 -----------------
