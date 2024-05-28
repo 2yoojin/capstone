@@ -5,13 +5,13 @@ Team Member
 
 <table>
   <tr>
-    <th align="center"><a href="https://github.com/parlyresk"><img src="https://avatars.githubusercontent.com/u/72953981?v=4" width="150x;" alt=""/><br /></a></th>
-    <th align="center"><a href="https://github.com/wnstndks"><img src="https://avatars.githubusercontent.com/u/72953981?v=4" width="150x;" alt=""/><br /></a></th>
+    <th align="center"><a href="https://github.com/SeokjunShin"><img src="https://avatars.githubusercontent.com/u/149030300?v=4" width="150x;" alt=""/><br /></a></th>
+    <th align="center"><a href="https://github.com/wnstndks"><img src="https://avatars.githubusercontent.com/u/125172335?v=4" width="150x;" alt=""/><br /></a></th>
         <th align="center"><a href="https://github.com/parlyresk"><img src="https://avatars.githubusercontent.com/u/104052426?v=4" width="150x;" alt=""/><br /></a></th>
     <th align="center"><a href="https://github.com/yoonsaeng"><img src="https://avatars.githubusercontent.com/u/113568993?v=4" width="150x;" alt=""/><br /></a></th>
   </tr>
   <tr>  
-    <th><a href="https://github.com/parlyresk"><b>신석준</b></a></th>
+    <th><a href="https://github.com/SeokjunShin"><b>신석준</b></a></th>
     <th><a href="https://github.com/wnstndks"><b>안준수</b></a></th>
     <th><a href="https://github.com/lcm1120"><b>임채민</b></a></th>
     <th><a href="https://github.com/2yoojin"><b>이유진</b></a></th>
