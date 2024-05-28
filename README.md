@@ -73,11 +73,12 @@ Contents
 
 베이스라인 모델
 -----------------
+
 <h3><a href="https://github.com/ashfarhangi/aa-forecast">AA-Forecast</a></h3>
 <p> 이상 현상 자동 추출 & 확률예측을 통해 최적화하는 새로운 프레임워크</p>
-<img src="https://private-user-images.githubusercontent.com/125172335/334250617-9b532b74-8fc4-4f07-87ed-6ff002cad78f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4NzMyOTksIm5iZiI6MTcxNjg3Mjk5OSwicGF0aCI6Ii8xMjUxNzIzMzUvMzM0MjUwNjE3LTliNTMyYjc0LThmYzQtNGYwNy04N2VkLTZmZjAwMmNhZDc4Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyOFQwNTA5NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZGU4Yjc4ZjJmNzkyMTVkMmQxMTQ1ODQ3ODUwYTA4ZWY1MDI0Y2JmMGExYjY2NTcxOWNiZjk3NjQ2MjE3NzQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qIcfUMf2aB6iTizgnke1t5MX1YR2G1B5_HxyLyVHgdQ"/>
+<img src="https://github.com/2yoojin/capstone/assets/125172335/7fc47b47-5591-4f60-a7a6-4e5cc64afe66" width="800x;" />
+<br/>
 <p> <h3>Data Preprocessing</h3> 데이터의 seasonal, trend, anomalies, residual를 분석하는 Star Decompostion</p>
-
 ```python
 def AA_decompose(df, period=24, lo_frac=0.6, lo_delta=0.01, warning_level=None):
     lowess = sm.nonparametric.lowess
