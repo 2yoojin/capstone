@@ -5,10 +5,10 @@ Team Member
 
 <table>
   <tr>
-    <th align="center"><a href="https://github.com/SeokjunShin"><img src="https://github.com/2yoojin/capstone/assets/125172335/b4770724-e1a8-494d-9670-d5ffaca3de1d" width="150x;" alt=""/><br /></a></th>
+    <th align="center"><a href="https://github.com/SeokjunShin"><img src="https://avatars.githubusercontent.com/u/149030300?v=4" width="150x;" alt=""/><br /></a></th>
     <th align="center"><a href="https://github.com/wnstndks"><img src="https://avatars.githubusercontent.com/u/125172335?v=4" width="150x;" alt=""/><br /></a></th>
-        <th align="center"><a href="https://github.com/lcm1120"><img src="https://github.com/2yoojin/capstone/assets/125172335/808e00a6-b192-4c6d-899d-1eabc1f87419" width="150x;" alt=""/><br /></a></th>
-    <th align="center"><a href="https://github.com/2yoojin"><img src="https://github.com/2yoojin/capstone/assets/125172335/c2a07e49-ed9a-4fda-84dc-d02f2421a0f8" width="150x;" alt=""/><br /></a></th>
+        <th align="center"><a href="https://github.com/lcm1120"><img src="https://avatars.githubusercontent.com/u/104052426?v=4" width="150x;" alt=""/><br /></a></th>
+    <th align="center"><a href="https://github.com/2yoojin"><img src="https://avatars.githubusercontent.com/u/113568993?v=4" width="150x;" alt=""/><br /></a></th>
   </tr>
   <tr>  
     <th><a href="https://github.com/SeokjunShin"><b>신석준</b></a></th>
