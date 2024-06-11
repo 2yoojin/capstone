@@ -76,7 +76,8 @@ Contents
 
 <h3 width='1000x'><a href="https://github.com/ashfarhangi/aa-forecast">AA-Forecast</a></h3>
 <p> 이상 현상 자동 추출 & 확률예측을 통해 최적화하는 새로운 프레임워크</p>
-<img src="https://github.com/2yoojin/capstone/assets/125172335/7fc47b47-5591-4f60-a7a6-4e5cc64afe66" width="800x;" />
+<img src="https://github.com/2yoojin/capstone/assets/125172335/4b84a13e-3bb3-4cf2-ace1-458bb85e2c12" width="1000x;"/>
+
 <br/>
 <p> <h3>Data Preprocessing</h3> 데이터의 seasonal, trend, anomalies, residual를 분석하는 Star Decompostion</p>
 
