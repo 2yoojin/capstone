@@ -186,7 +186,8 @@ history = model1.fit(X_train1[:train_size], y_train1[:train_size], validation_da
 프로젝트 결과
 -----------------
 
-![image](https://github.com/2yoojin/capstone/assets/125172335/fe5977be-f102-4d08-8630-80b862b2e8f8)
+![image](https://github.com/2yoojin/capstone/assets/125172335/7c37c0d7-400b-432b-a86b-55e6acb5ac81)
+
 <p align="center">광진교 이상치 예측 그래프</p>
 <br/>
 
